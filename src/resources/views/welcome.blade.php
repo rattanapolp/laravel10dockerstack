@@ -14,7 +14,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </head>
-    <body >
+    <body class="bg-warning" >
         <div class="container-fluid text-end bg-dark">
             @if (Route::has('login'))
                 <div >
@@ -31,10 +31,14 @@
             @endif            
         </div>
 
-        <div>
+        <div class="container mt-5">
             <h1>Home Page</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit molestiae aliquid consequatur eius vel, ea veritatis quaerat illo nobis animi sunt aut aspernatur dolor placeat voluptas quae ex expedita dolores amet neque dignissimos! Ad tenetur hic nobis facilis eaque aut dicta sit? Ipsa neque eum sequi odit quasi harum provident explicabo commodi, tempora nulla iste consectetur corrupti autem ad! Enim, eveniet. Suscipit distinctio a itaque, aspernatur quaerat dolorem eos nemo tempore, eum vitae magni odit! Maiores, reiciendis praesentium doloremque voluptate vitae officiis labore impedit ducimus sapiente, saepe officia vel! Autem quisquam laudantium facere eum enim similique praesentium nobis iusto voluptas!</p>
+            <h2 class="mb-3">ตัวอย่างหน้าเว็บไซต์</h2>
+            <p>แก้ไขทีม dev</p>
         </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
     </body>
 </html>
